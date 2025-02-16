@@ -1,7 +1,315 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nandita Venkatesh | Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- AOS (Animate on Scroll) CSS -->
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400&display=swap" rel="stylesheet">
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
+
+    <!-- Scroll Bar -->
+    <div class="scroll-progress"></div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <img src="assets/images/logo.png" alt="Logo" class="navbar-logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+		    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#timeline">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Text Column -->
+                <div class="col-lg-5 col-md-12 text-column">
+                    <h1 class="display-4">Hey, I'm Nandita Venkatesh</h1>
+                    <p class="lead">Passionate about machine learning, solving complex problems, and enhancing software solutions.</p>
+                    <a href="#projects" class="btn">View My Projects</a>
+                </div>
+                <!-- Image Column -->
+                <div class="col-lg-7 col-md-12 image-column text-center">
+                    <div class="image-overlay-wrapper" id="profile-img-wrapper">
+                        <div class="image-overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+   <!-- About Section -->
+    <section id="about" class="about-section py-5" data-aos="fade-up">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Image Column -->
+                <div class="col-lg-4 mb-3 text-center image-column">
+                    <img src="assets/images/desk.png" alt="Nandita Venkatesh" class="img-fluid profile-img shadow-img">
+                </div>
+                <!-- Text Column -->
+                <div class="col-lg-8 about-content text-column">
+                    <h2>About Me</h2>
+                    <p>Driven by an unwavering passion for machine learning's transformative potential, I bring over four years of experience in software development, test automation, and machine learning. Holding a Master's degree in Computer Science, I am committed to pushing technological boundaries and shaping the future of industry.</p>
+                    <p>I thrive in collaborative environments, working alongside talented individuals to create meaningful applications that make a difference. Whether it's developing intelligent machine learning models, building seamless web experiences, or automating complex workflows, equipped with robust programming expertise, I excel at designing large-scale infrastructures and unraveling complex challenges.</p>
+                    <p>Now, I am seeking opportunities to leverage my skills in impactful projects that address critical real-world needs. Let's connect and collaborate to create extraordinary solutions that drive meaningful change together.</p>
+                    <a href="#contact" class="btn btn-primary">Let's Connect!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="section-divider-wrapper">
+        <div class="custom-divider"></div>
+    </div>
+
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section py-5" data-aos="fade-up">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <img src="assets/images/icon1.png" alt="Icon 1" class="skills-icon mb-3">
+                    <ul class="skills-list">
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>Git</li>
+                    <li>Agile Methodologies</li>
+                    <li>Unit Testing</li>
+                    <li>Test Automation</li>
+                    <li>RESTful APIs</li>
+                </ul>
+                </div>
+                <div class="col-md-4">
+                    <img src="assets/images/icon2.png" alt="Icon 2" class="skills-icon mb-3">
+                    <ul class="skills-list">
+                    <li>Deep Learning Frameworks (TensorFlow, PyTorch)</li>
+                    <li>Convolutional Neural Networks (CNNs)</li>
+                    <li>Recurrent Neural Networks (RNNs) and LSTMs</li>
+                    <li>Transformers</li>
+                    <li>Reinforcement Learning</li>
+                    <li>Generative Adversarial Networks (GANs)</li>
+                    <li>Apache Spark (PySpark)</li>
+                </ul>
+                </div>
+                <div class="col-md-4">
+                    <img src="assets/images/icon3.png" alt="Icon 3" class="skills-icon mb-3">
+                    <ul class="skills-list">
+                    <li>Amazon Web Services (AWS)</li>
+                    <li>Google Cloud Platform (GCP)</li>
+                    <li>SQL Databases (MySQL, PostgreSQL)</li>
+                    <li>DevOps Practices</li>
+                    <li>Atlassian JIRA</li>
+                </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider-wrapper">
+        <div class="custom-divider"></div>
+    </div>
+
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section py-5" data-aos="fade-up" data-aos-offset="120">
+        <div class="container projects-container">
+            <h2 class="text-center mb-5">Projects</h2>
+            <div class="row project-row">
+                <!-- BERT Fine-Tuning for Sentiment Classification -->
+                <div class="col-md-4 mb-4">
+                    <div class="card custom-card">
+                        <div class="card-body">
+                            <h5 class="card-title">BERT Fine-Tuning for Sentiment Classification</h5>
+                            <p class="card-text">
+                                Fine-tuned DistilBERT for sentiment classification on a Twitter dataset of 5,000 tweets labeled positive, neutral, or negative.
+                                Achieved 75.6% accuracy, outperforming baseline models. Key steps included data preparation, model training, evaluation, and result visualization
+                            </p>
+                                <p class="card-text2">Key Technologies Used: Python 3.x, Transformers Library (Hugging Face), BERT, PyTorch, Scikit-learn, Matplotlib, Pandas, NumPy</p>
+                                <a href="https://github.com/nanditavenkatesh/Fine-Tuning-Bert-Classifier-for-Sentiment-Analysis" target="_blank" class="project-link">View Project</a>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Fine-tuning FLAN-T5 for Python Question-Answering -->
+                <div class="col-md-4 mb-4">
+                    <div class="card custom-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Fine-tuning FLAN-T5 for Python Question-Answering</h5>
+                            <p class="card-text">
+                                Fine-tuned the Flan-T5 base model on Python programming questions from StackOverflow to enhance its question-answering capabilities.
+								Achieved improved performance measured by ROUGE scores and human evaluation through data preprocessing, incremental training, and performance evaluation.
+                            </p>
+                                <p class="card-text2">Key Technologies Used: Python 3.x, Flan-T5 Base Model (Google's T5), Hugging Face Transformers Library, PyTorch, ROUGE Metrics, BeautifulSoup, Pandas, NumPy</p>
+                                <a href="https://github.com/nanditavenkatesh/Fine-Tuning-FLAN-T5-for-Python-Programming-Assistance" target="_blank" class="project-link">View Project</a>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Baby Steps - Making Learing fun! -->
+                <div class="col-md-4 mb-4">
+                    <div class="card custom-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Baby Steps - Making Learing fun!</h5>
+                            <p class="card-text">
+                                Developed "Baby Steps," an interactive educational app that helps preschoolers learn to write alphabets and numbers through AI-based handwriting recognition, tutorials, and quizzes.
+								Features include practice sessions, video tutorials, and assessments. Built using Python, Flask, TensorFlow, and MySQL for an engaging learning experience.
+                            </p>
+                                <p class="card-text2">Key Technologies Used: Python 3.x, Flask, TensorFlow & Keras, Matplotlib & Seaborn, MySQL, Scikit-learn, NumPy</p>
+                                <a href="https://github.com/nanditavenkatesh/Baby-Steps" target="_blank" class="project-link">View Project</a>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- CSIC Machine Simulator -->
+                <div class="col-md-4 mb-4">
+                    <div class="card custom-card">
+                        <div class="card-body">
+                            <h5 class="card-title">CSIC Machine Simulator</h5>
+                            <p class="card-text">
+                                Developed a Java-based simulator of a conventional CISC architecture, featuring registers, memory, and a control unit with an interactive GUI to execute and visualize assembly instructions.
+								The simulator effectively mimics key components of a CISC machine, allowing users to perform arithmetic and logical operations, manage registers and memory, and execute a variety of assembly instructions.
+                            </p>
+                                <p class="card-text2">Key Technologies Used: Java, Object-Oriented Programming, Register and Memory Management, Assembly Language Simulation</p>
+                                <a href="https://github.com/nanditavenkatesh/CSIC-Machine-Simulator-in-Java" target="_blank" class="project-link">View Project</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider-wrapper">
+        <div class="custom-divider"></div>
+    </div>
+
+
+    <!-- Timeline Section -->
+    <section id="timeline" class="timeline-section py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">My Journey</h2>
+            <div class="timeline">
+                <!-- AHU Technology Inc -->
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">July 2024 - Current</div>
+                    <div class="timeline-content">
+                        <h4 class="timeline-title">Python Developer</h4>
+                        <p>AHU Technologies, Washington, D.C.</p>
+                    </div>
+                </div>
+
+                <!-- GWU -->
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">August 2022 - May 2024</div>
+                    <div class="timeline-content">
+                        <h4 class="timeline-title">The George Washington University</h4>
+                        <p>Master of Science - Computer Science, Washington, D.C.</p>
+                    </div>
+                </div>
+
+                <!-- GWU SEAS -->
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">June 2023 - May 2024</div>
+                    <div class="timeline-content">
+                        <h4 class="timeline-title">The George Washington University - School of Engineering and Applied Science</h4>
+                        <p>Student Academic Assistant - Computer Science Department, Washington, D.C.</p>
+                    </div>
+                </div>
+
+                <!-- Accenture -->
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">August 2018 - August 2022</div>
+                    <div class="timeline-content">
+                        <h4 class="timeline-title">Accenture</h4>
+                        <p>Software Development Senior Analyst, Bangalore, India</p>
+                    </div>
+                </div>
+
+                <!-- DSCE -->
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">August 2014 - June 2018</div>
+                    <div class="timeline-content">
+                        <h4 class="timeline-title">Dayananda Sagar College of Engineering - Affiliated with VTU</h4>
+                        <p>Bachelor of Engineering - Electronics and Instrumentation, Bangalore, India</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <div class="section-divider-wrapper">
+        <div class="custom-divider"></div>
+    </div>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section py-5">
+        <div class="container text-center">
+            <h2 class="mb-5">Let's Connect!</h2>
+            <div class="contact-icons">
+                <a href="mailto:nanditav26@gmail.com" class="contact-icon" target="_blank">
+                    <i class="fas fa-envelope"></i>  <!-- Email Icon -->
+                </a>
+                <a href="https://www.linkedin.com/in/nanditavenkatesh" class="contact-icon" target="_blank">
+                    <i class="fab fa-linkedin"></i>  <!-- LinkedIn Icon -->
+                </a>
+                <a href="https://github.com/nanditavenkatesh" class="contact-icon" target="_blank">
+                    <i class="fab fa-github"></i>  <!-- GitHub Icon -->
+                </a>
+            </div>
+        </div>
+    </section>
+    <div class="section-divider-wrapper">
+        <div class="custom-divider"></div>
+    </div>
+
+
+   <!-- Footer Section -->
+<footer class="footer" text >
+    <div class="container">
+        <p>© 2024 Nandita Venkatesh. All Rights Reserved.</p>
+    </div>
+</footer>
+
+
+    <!-- Bootstrap JS, AOS JS, Custom JS -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/main.js"></script>
+
 </body>
 </html>
