@@ -75,9 +75,9 @@ img {
 .about-section {
     background: linear-gradient(135deg, #362e17, #5c524a); /* Darker gradient for a rich effect in the about section */
     color: #ffffff; /* Ensure text is readable against the gradient */
-    padding-top: 150px; /* Increase top padding to prevent overlapping */
+    padding-top: 200px; /* Increase top padding to prevent overlapping */
     padding-bottom: 100px; /* Add bottom padding for spacing */
-    min-height: 80vh; /* Ensure full height to avoid overlapping with previous section */
+    min-height: 85vh; /* Ensure full height to avoid overlapping with previous section */
     box-sizing: border-box; /* Include padding in height calculations */
     position: relative;
     z-index: 1; /* Ensure it stays above the home section content */
