@@ -370,8 +370,8 @@ p {
 
 .about-section p {
     font-family: 'Roboto', sans-serif; /* Use Roboto for paragraphs */
-    font-size: 1.4rem; /* Increased paragraph text size */
-    line-height: 1.8em;
+    font-size: 1.1rem; /* Increased paragraph text size */
+    line-height: 1.6em;
     color: #FFFFFF; /* White text for paragraphs */
 }
 
